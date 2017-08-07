@@ -1,5 +1,6 @@
 ## pet项目
 
+
 ### 项目组成
 * 组长: 杨勇海
 * 成员: 温景业 陈奎宁 施碧辉 赵越
@@ -32,12 +33,12 @@
 * 在线文档: https://github.com/vuejs/vue-cli
 * 具体操作: 
 ```
-	npm install -g vue-cli : 全局下载工具
-	vue init webpack eleApp :下载基于webpack模板项目
-	cd eleApp
-	npm install : 下载项目依赖的所有模块
-	npm run dev
-	访问: localhost:8080
+npm install -g vue-cli : 全局下载工具
+vue init webpack pet :下载基于webpack模板项目
+cd pet
+npm install : 下载项目依赖的所有模块
+npm run dev
+访问: localhost:8080
 
 ```
 #### 2. 项目结构分析

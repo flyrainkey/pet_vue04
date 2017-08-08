@@ -14,6 +14,23 @@
 1. 模拟不正确支持css盒子模型规范的浏览器 
 2. 初始值 `content-box`
 3. `border-box` 告诉浏览器你的内边框和padding包含在width在内
+4. 伪元素的运用， 防止内外边距重叠、清除浮动
+    ```
+    clearfix:before , clearfix:after{
+        content: '';
+        display: table;
+        clear: both;
+    }
+    ```
+5. `vertical-align` 指定行内元素 (inline) 
+
+   ```
+   1. 初始值 baseline
+   2. 适用元素 inline-level and table-cell elements
+   3. 是否继承  否
+   4. 大部分取值是相对于父元素来说的：
+   ```
+
 
 #### 1. 高成平
 1. 样式引入 `href= './' ` 不知道绝对路径和相对路径

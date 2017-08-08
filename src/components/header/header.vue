@@ -1,5 +1,5 @@
 <template>
-    <div class="header-wrap">
+    <div class="header-wrap" v-bind:class="{fixed: isfixed}">
         <div class="ad" v-show="isShow">
             <span class="close-btn" @click="closeAd">
             <img src="https://static.epetbar.com/static_wap/lib/common_images/closebtn_03.png">
@@ -13,15 +13,15 @@
             </div>
         </div>
 
-        <div class="header">
+        <div class="header" @click="scroll">
 
             <div class="nav">
                 <div class="navigator">
                     <span>狗站|重庆</span>
                 </div>
-                <p class="search">
-                    <input type="text" placeholder="搜索商品和品牌">
-                </p>
+                <div class="search">
+                    <mt-search v-model="value" ></mt-search>
+                </div>
                 <a class="login">
                     <img src="https://static.epetbar.com/static_wap/epetapp/pages/index/images/mydope.png" alt="">
                 </a>
@@ -60,13 +60,21 @@
     export default {
         data() {
             return {
-                isShow: true
+                isShow: true,
+                isfixed: false,
+                value: null
             }
         },
         methods: {
             closeAd(){
                 return this.isShow = !this.isShow
+            },
+            scroll(){
+                return this.isfixed = !this.isfixed
             }
+        },
+        components: {
+
         }
     }
 </script>
@@ -81,6 +89,7 @@
         width 100%
       a
         display inline-block
+        width 100%
     .close-btn
       display inline-block
       position absolute
@@ -105,6 +114,11 @@
         flex 4
       .search
         flex 8
+        .mint-search
+          width 100%
+          height 100%
+          .mint-searchbar-inner
+            height 18px
       .login
         flex 2
         img
@@ -120,6 +134,10 @@
         flex 1
         text-align center
         font-size 14px
+  .fixed
+    position fixed
+    width 100%
+    z-index 5
 
 
 </style>

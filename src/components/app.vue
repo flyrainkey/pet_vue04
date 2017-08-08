@@ -1,9 +1,12 @@
 <template>
-    <div>
+    <div class="wrap">
         <!--头部-->
         <pet-header></pet-header>
 
-        <router-view></router-view>
+        <!--内容区-->
+        <div class="main-wrap">
+            <router-view></router-view>
+        </div>
 
     </div>
 </template>
@@ -19,11 +22,15 @@
 
 <style lang="stylus" rel="stylesheet/stylus">
 
-  /*.tab
-    display flex
-    .tab-item
-      flex 1
-      text-align center*/
+  .wrap
+    position relative
+    .main-wrap
+      width 100%
+      height 2000px
+      position absolute
+      top 143px
+      background-color rgba(0,255,0,.2)
+
 
 
 

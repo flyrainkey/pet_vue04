@@ -103,7 +103,7 @@
         height 100%
   .nav
     height 43px
-    background-color rgba(255,0,0,.1)
+    background-color #fff !important
     padding 5px 5px
     line-height 43px
   .header
@@ -111,16 +111,24 @@
       font-size 14px
       display flex
       .navigator
-        flex 4
+        flex 3
       .search
-        flex 8
+        flex 10
         .mint-search
           width 100%
           height 100%
+          .mint-searchbar
+            background-color #fff
           .mint-searchbar-inner
             height 18px
+          .mint-searchbar-core
+            background-color #f6f6f6
+            border-radius 5px
+            height 25px
+
       .login
-        flex 2
+        flex 1
+        text-align center
         img
           width 24px
           vertical-align middle

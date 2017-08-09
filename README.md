@@ -22,6 +22,16 @@
         clear: both;
     }
     ```
+    经典去除浮动样式
+    ```
+    clearfix:after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+    ```
 5. `vertical-align` 指定行内元素 (inline) 
 
    ```
@@ -30,12 +40,20 @@
    3. 是否继承  否
    4. 大部分取值是相对于父元素来说的：
    ```
+6. 学习使用轮播图 `mint-ui` 插件 
+ 
+7. 伪类的使用 
+* `:first-child` CSS伪类代表父元素的第一个子元素
+* `:nth-child(2n+1)` CSS伪类代表父元素的2n+1个元素
+
 
 
 #### 1. 高成平
 1. 样式引入 `href= './' ` 不知道绝对路径和相对路径
 2. a 标签去除默认样式 `text-decoration: none`
 3. 默认浏览器为360， 设置为Chrome
+4. Chrome插件安装 infinity 
+5. position 定位 
 
 #### 2. 温景业
 1. a 标签使用伪类修改样式

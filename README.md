@@ -73,7 +73,7 @@ pet_vue04
   1. `npm run dev`
   2. `npm install -g pushstate-server`
   3. `pushstate-server dist`
-  4. 访问: http://localhost:9000
+  4. 访问: http://192.168.21.126:8080/#/index
   
 ### 项目组成
 * 组长: 杨勇海

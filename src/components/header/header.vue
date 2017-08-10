@@ -142,6 +142,8 @@
         flex 1
         text-align center
         font-size 14px
+        .router-link-active
+          color red
   .fixed
     position fixed
     width 100%

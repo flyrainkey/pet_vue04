@@ -526,11 +526,12 @@
           .big
             font-size 15px
           .small
+            margin-left 10px
             font-size 12px
             color #999
         .brand-img
           a
-            display inline-block
+            display block
             img
               width 100%
 

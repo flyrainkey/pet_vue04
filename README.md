@@ -1,5 +1,9 @@
 ## pet项目
 
+#### 项目测试访问地址
+
+`http://192.168.21.54:8080/#/shouye`
+
 #### 1.1 项目描述
 
 * 此项目为宠物商城App核心的商家模块的SPA
@@ -82,7 +86,9 @@ pet_vue04
 
 ### 8.7 项目版本记录
 
-#### 0.自己开发过程遇到的问题  
+#### 开发过程遇到的问题 
+ 
+#### 0.杨勇海 
 
 **`box-sizing` 盒模型**
 1. 模拟不正确支持css盒子模型规范的浏览器 
@@ -146,7 +152,14 @@ pet_vue04
 #### 5.陈奎宁
 
 1. 在webStorm里怎么关联我的github账号？
-2. 如何修改input里面的placeholder的字体大小？  
+2. 如何修改input里面的placeholder的字体大小？ 
+3. 技术点  滑动ui库 mint-ui better-scroll
+4. 一行文字不换行省略号显示文本的样式设计 
+ ```
+     text-overflow: ellipsis;
+     white-space: nowrap;
+     overflow: hidden;
+ ```
 
 
 

@@ -142,6 +142,13 @@ pet_vue04
 #### 3. 赵越  访问: http://192.168.21.62:8080/#/shouye
 
 1. 图片要保存到静态资源 static文件里
+2. 问题：git 环境变量的配置 
+3. 轮播图不显示问题？ 原因：未写高度 
+4. webstorm如何排除不想索引的文件
+```
+解决： 对着 /node_modules 右键 make dictionary as ---->  not exclued
+```
+
 
 #### 4. 施碧辉 访问: http://192.168.21.35:8080/#/homepage
 

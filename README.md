@@ -66,7 +66,7 @@ pet_vue04
 
 * 编码测试
   1. `npm run dev`
-  2. 访问 http://localhost:8080
+  2. 访问 http://192.168.21.54:8080/#/shouye
   3. 编码, 自动编译打包(HMR), 查看效果
   
 * 打包发布

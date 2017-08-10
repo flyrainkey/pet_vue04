@@ -146,7 +146,7 @@ pet_vue04
 3. 轮播图不显示问题？ 原因：未写高度 
 4. webstorm如何排除不想索引的文件
 ```
-解决： 对着 /node_modules 右键 make dictionary as ---->  not exclued
+解决： 对着 /node_modules 右键 make directory as ---->  not excluded
 ```
 
 

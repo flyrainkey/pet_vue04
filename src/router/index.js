@@ -5,6 +5,8 @@ import food from '../components/dog_food/dog_food.vue'
 import discount from '../components/discount/discount.vue'
 import video from '../components/fashion_video/fashion_video.vue'
 import lesson from '../components/lesson/lesson.vue'
+import entry from '../components/entry.vue'
+import login from '../components/login/login.vue'
 
 
 
@@ -15,6 +17,10 @@ export default new Router({
         {
             path: '/',
             redirect: '/index'
+        },
+        {
+            path: '/entry',
+            component: entry
         },
         {
             path: '/index',
@@ -36,6 +42,10 @@ export default new Router({
         {
             path: '/lesson',
             component: lesson
+        },
+        {
+            path: '/login',
+            component: login
         }
     ]
 })

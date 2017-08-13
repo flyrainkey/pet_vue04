@@ -70,10 +70,21 @@ pet_vue04
   3. 编码, 自动编译打包(HMR), 查看效果
   
 * 打包发布
-  1. `npm run dev`
+  1. `npm run build`
   2. `npm install -g pushstate-server`
   3. `pushstate-server dist`
   4. 访问: http://192.168.21.126:8080/#/index
+> 注意: 在打包发布的时候，本地测试 需要将打包路径修改！
+
+```
+config/index.js/assetsPublicPath: '/',
+
+修改为:
+
+config/index.js/assetsPublicPath: './',
+```
+  
+  
   
 ### 项目组成
 * 组长: 杨勇海
@@ -123,8 +134,17 @@ pet_vue04
 6. 学习使用轮播图 `mint-ui` 插件 
  
 7. 伪类的使用 
-* `:first-child` CSS伪类代表父元素的第一个子元素
-* `:nth-child(2n+1)` CSS伪类代表父元素的2n+1个元素
+    * `:first-child` CSS伪类代表父元素的第一个子元素
+    * `:nth-child(2n+1)` CSS伪类代表父元素的2n+1个元素
+
+8. `display: flex` 的巧妙利用
+
+    * login组件 头部布局  首行文字 两侧对齐 `justify-content: space-between`
+
+9   锚链接的利用
+
+    * 从一个路由组件跳转到另外一个组件 可以直接用 `a` 标签的 `href` 属性  
+    ` <a href="#index" class="back"> `
 
 
 

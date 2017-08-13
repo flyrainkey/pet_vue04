@@ -1,16 +1,18 @@
 <template>
     <div class="wrap">
         <!--头部-->
-        <pet-header></pet-header>
+        <!--<pet-header></pet-header>-->
 
         <!--内容区-->
-        <div class="main-wrap">
+        <!--<div class="main-wrap">
             <router-view></router-view>
-        </div>
+        </div>-->
+
+        <router-view></router-view>
 
         <!--底部-->
 
-        <pet-footer></pet-footer>
+        <!--<pet-footer></pet-footer>-->
 
     </div>
 </template>
@@ -36,7 +38,7 @@
       /*height 20000px*/
       position absolute
       top 143px
-      /*background-color rgba(0,255,0,.2)*/
+
 
 
 

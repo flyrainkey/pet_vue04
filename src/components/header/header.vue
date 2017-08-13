@@ -61,7 +61,7 @@
         data() {
             return {
                 isShow: true,
-                isfixed: false,
+                isfixed: true,
                 value: null
             }
         },

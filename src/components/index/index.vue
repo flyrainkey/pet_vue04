@@ -1,360 +1,370 @@
 <template>
 
-    <div class="index-content">
-        <div class="swipe">
-            <mt-swipe :auto="4000">
-                <mt-swipe-item>
-                    <img src="./img/ad.jpg">
-                </mt-swipe-item>
-                <mt-swipe-item>
-                    <img src="./img/dog.jpg">
-                </mt-swipe-item>
-                <mt-swipe-item>
-                    <img src="./img/water.jpg">
-                </mt-swipe-item>
-                <mt-swipe-item>
-                    <img src="./img/first.png">
-                </mt-swipe-item>
-            </mt-swipe>
-        </div>
 
-        <div class="fresh-wrap">
-            <div class="new">
-                <a href="javascript:;">
-                    <img src="./img/fresh.gif">
-                </a>
-            </div>
+    <div>
+        <pet-head></pet-head>
 
-            <ul class="sell">
-                <li>
-                    <a href=""><img src="./img/li_1.png"></a>
-                </li>
-                <li>
-                    <a href=""><img src="./img/li_2.png"></a>
-                </li>
-                <li>
-                    <a href=""><img src="./img/li_3.png"></a>
-                </li>
-                <li>
-                    <a href=""><img src="./img/li_4.png"></a>
-                </li>
-                <li>
-                    <a href=""><img src="./img/li_5.png"></a>
-                </li>
-            </ul>
-        </div>
-
-        <split></split>
-
-        <div class="buy-crazy">
-            <div class="crazy">
-                <div class="logo">
-                    <a href="javascript:;">
-                        <img src="./img/crazy.png">
-                    </a>
+        <div class="main-wrap">
+            <div class="index-content">
+                <div class="swipe">
+                    <mt-swipe :auto="4000">
+                        <mt-swipe-item>
+                            <img src="./img/ad.jpg">
+                        </mt-swipe-item>
+                        <mt-swipe-item>
+                            <img src="./img/dog.jpg">
+                        </mt-swipe-item>
+                        <mt-swipe-item>
+                            <img src="./img/water.jpg">
+                        </mt-swipe-item>
+                        <mt-swipe-item>
+                            <img src="./img/first.png">
+                        </mt-swipe-item>
+                    </mt-swipe>
                 </div>
 
-                <div class="time">
-                    <span>距离本场结束</span>
-                    01: 25 : 53
-                </div>
-                <div class="more">
-                    <a href="javascript:;">
-                        <img src="./img/more.png">
-                    </a>
-                </div>
-            </div>
-
-            <div class="buy">
-                <div class="goods">
-                    <div class="good">
-                        <div class="img-wrap">
-                            <img src="./img/good1.jpg">
-                        </div>
-                        <div class="price">
-                            <span>￥9.9</span>
-                        </div>
-                        <div class="save">
-                            <span>省￥9.9</span>
-                        </div>
-                    </div>
-
-                    <div class="good">
-                        <div class="img-wrap">
-                            <img src="./img/good2.jpg">
-                        </div>
-                        <div class="price">
-                            <span>￥9.9</span>
-                        </div>
-                        <div class="save">
-                            <span>省￥9.9</span>
-                        </div>
-                    </div>
-
-                    <div class="good">
-                        <div class="img-wrap">
-                            <img src="./img/good3.jpg">
-                        </div>
-                        <div class="price">
-                            <span>￥9.9</span>
-                        </div>
-                        <div class="save">
-                            <span>省￥9.9</span>
-                        </div>
-                    </div>
-
-                    <div class="good">
-                        <div class="img-wrap">
-                            <img src="./img/good1.jpg">
-                        </div>
-                        <div class="price">
-                            <span>￥9.9</span>
-                        </div>
-                        <div class="save">
-                            <span>省￥9.9</span>
-                        </div>
-                    </div>
-
-                    <div class="good">
-                        <div class="img-wrap">
-                            <img src="./img/good2.jpg">
-                        </div>
-                        <div class="price">
-                            <span>￥9.9</span>
-                        </div>
-                        <div class="save">
-                            <span>省￥9.9</span>
-                        </div>
-                    </div>
-
-                    <div class="good">
-                        <div class="img-wrap">
-                            <img src="./img/good3.jpg">
-                        </div>
-                        <div class="price">
-                            <span>￥9.9</span>
-                        </div>
-                        <div class="save">
-                            <span>省￥9.9</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <split></split>
-
-        <div class="hot">
-            <div class="hot-title">
-                <img src="./img/hot.jpg">
-            </div>
-
-            <div class="img-box">
-                <div class="left">
-                    <img src="./img/left.png">
-                </div>
-                <div class="right">
-                    <div class="top"><img src="./img/right1.jpg"></div>
-                    <div class="bottom"><img src="./img/right2.jpg"></div>
-                </div>
-            </div>
-
-        </div>
-
-        <split></split>
-
-        <div class="experience">
-            <div class="title">
-                <img src="./img/exp-title.png">
-            </div>
-
-            <div class="more">
-                <a href="javascript:;">
-                    <img src="./img/more2.png">
-                </a>
-            </div>
-        </div>
-
-        <div class="exp-swipe">
-            <mt-swipe :auto="4000">
-                <mt-swipe-item>
-                    <img src="./img/exp1.jpg">
-                </mt-swipe-item>
-                <mt-swipe-item>
-                    <img src="./img/exp2.jpg">
-                </mt-swipe-item>
-                <mt-swipe-item>
-                    <img src="./img/exp3.jpg">
-                </mt-swipe-item>
-                <mt-swipe-item>
-                    <img src="./img/exp4.jpg">
-                </mt-swipe-item>
-            </mt-swipe>
-        </div>
-
-        <div class="special">
-            <div class="brand">
-                <img src="./img/special.png">
-            </div>
-        </div>
-
-        <div class="brand-show">
-            <div class="text">
-                <span class="big">丝倍亮3免一</span>
-                &nbsp; &nbsp;
-                <span class="small">丝倍亮3免一</span>
-            </div>
-
-            <div class="brand-img">
-                <a href="">
-                    <img src="./img/brand1.jpg">
-                </a>
-            </div>
-        </div>
-
-        <div class="brand-show">
-            <div class="text">
-                <span class="big">安娜马特</span>
-                <span class="small">无谷低敏</span>
-            </div>
-
-            <div class="brand-img">
-                <a href="">
-                    <img src="./img/brand2.jpg">
-                </a>
-            </div>
-        </div>
-
-        <div class="brand-show">
-            <div class="text">
-                <span class="big">品牌特卖-澳路雪&amp;圣路薇</span>
-                <span class="small">口碑联合，清凉一“夏”</span>
-            </div>
-
-            <div class="brand-img">
-                <a href="">
-                    <img src="./img/brand3.jpg">
-                </a>
-            </div>
-        </div>
-
-        <div class="brand-show">
-            <div class="text">
-                <span class="big">>品牌特卖-PerfectCoat香波</span>
-                <span class="small">口碑联合，清凉一“夏”</span>
-            </div>
-
-            <div class="brand-img">
-                <a href="">
-                    <img src="./img/brand4.jpg">
-                </a>
-            </div>
-        </div>
-
-        <div class="brand-show">
-            <div class="text">
-                <span class="big">我的日期不完美</span>
-                <span class="small">大牌临期1折起</span>
-            </div>
-
-            <div class="brand-img">
-                <a href="">
-                    <img src="./img/brand5.jpg">
-                </a>
-            </div>
-        </div>
-
-        <split></split>
-
-        <div class="evaluate">
-            <div class="title">
-                <img src="./img/evaluate.png">
-                <div class="rating">
-                    <a href="javascript:;">好评率99.64%</a>
-                </div>
-            </div>
-
-            <div class="praise">
-                <ul class="lists clearfix">
-                    <li class="list">
+                <div class="fresh-wrap">
+                    <div class="new" ref="new">
                         <a href="javascript:;">
-                            <div class="comment-box">
-                                <div class="comment-pic">
-                                    <img src="./img/comment1.jpg">
-                                    <div class="join_time">加入E宠2年0月</div>
+                            <img src="./img/fresh.gif">
+                        </a>
+                    </div>
+
+                    <ul class="sell">
+                        <li>
+                            <a href=""><img src="./img/li_1.png"></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./img/li_2.png"></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./img/li_3.png"></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./img/li_4.png"></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./img/li_5.png"></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <split></split>
+
+                <div class="buy-crazy">
+                    <div class="crazy">
+                        <div class="logo">
+                            <a href="javascript:;">
+                                <img src="./img/crazy.png">
+                            </a>
+                        </div>
+
+                        <div class="time">
+                            <span>距离本场结束</span>
+                            01: 25 : 53
+                        </div>
+                        <div class="more">
+                            <a href="javascript:;">
+                                <img src="./img/more.png">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="buy" ref="buy">
+                        <div class="goods">
+                            <div class="good">
+                                <div class="img-wrap">
+                                    <img src="./img/good1.jpg">
                                 </div>
-                                <div class="user-info">
-                                    <span class="nickname">红*****ω</span>
-                                    <span class="pet-name">中华田园猫</span>
+                                <div class="price">
+                                    <span>￥9.9</span>
                                 </div>
-                                <div class="comment-info">
-                                    包装完美，没有破漏的情况存在，虽说是跨境运输，但是物流的速度还是比想象中快，最主要的还是正品保证，买得放心吃的安心
+                                <div class="save">
+                                    <span>省￥9.9</span>
                                 </div>
                             </div>
-                        </a>
-                    </li>
 
-                    <li class="list">
-                        <a href="javascript:;">
-                            <div class="comment-box">
-                                <div class="comment-pic">
-                                    <img src="./img/comment2.jpg">
-                                    <div class="join_time">加入E宠2年0月</div>
+                            <div class="good">
+                                <div class="img-wrap">
+                                    <img src="./img/good2.jpg">
                                 </div>
-                                <div class="user-info">
-                                    <span class="nickname">红*****ω</span>
-                                    <span class="pet-name">中华田园猫</span>
+                                <div class="price">
+                                    <span>￥9.9</span>
                                 </div>
-                                <div class="comment-info">
-                                    包装完美，没有破漏的情况存在，虽说是跨境运输，但是物流的速度还是比想象中快，最主要的还是正品保证，买得放心吃的安心
+                                <div class="save">
+                                    <span>省￥9.9</span>
                                 </div>
                             </div>
-                        </a>
-                    </li>
 
-                    <li class="list">
-                        <a href="javascript:;">
-                            <div class="comment-box">
-                                <div class="comment-pic">
-                                    <img src="./img/comment3.jpg">
-                                    <div class="join_time">加入E宠2年0月</div>
+                            <div class="good">
+                                <div class="img-wrap">
+                                    <img src="./img/good3.jpg">
                                 </div>
-                                <div class="user-info">
-                                    <span class="nickname">红*****ω</span>
-                                    <span class="pet-name">中华田园猫</span>
+                                <div class="price">
+                                    <span>￥9.9</span>
                                 </div>
-                                <div class="comment-info">
-                                    包装完美，没有破漏的情况存在，虽说是跨境运输，但是物流的速度还是比想象中快，最主要的还是正品保证，买得放心吃的安心
+                                <div class="save">
+                                    <span>省￥9.9</span>
                                 </div>
                             </div>
-                        </a>
-                    </li>
 
-                    <li class="list">
-                        <a href="javascript:;">
-                            <div class="comment-box">
-                                <div class="comment-pic">
-                                    <img src="./img/comment4.jpg">
-                                    <div class="join_time">加入E宠2年0月</div>
+                            <div class="good">
+                                <div class="img-wrap">
+                                    <img src="./img/good1.jpg">
                                 </div>
-                                <div class="user-info">
-                                    <span class="nickname">红*****ω</span>
-                                    <span class="pet-name">中华田园猫</span>
+                                <div class="price">
+                                    <span>￥9.9</span>
                                 </div>
-                                <div class="comment-info">
-                                    包装完美，没有破漏的情况存在，虽说是跨境运输，但是物流的速度还是比想象中快，最主要的还是正品保证，买得放心吃的安心
+                                <div class="save">
+                                    <span>省￥9.9</span>
                                 </div>
                             </div>
+
+                            <div class="good">
+                                <div class="img-wrap">
+                                    <img src="./img/good2.jpg">
+                                </div>
+                                <div class="price">
+                                    <span>￥9.9</span>
+                                </div>
+                                <div class="save">
+                                    <span>省￥9.9</span>
+                                </div>
+                            </div>
+
+                            <div class="good">
+                                <div class="img-wrap">
+                                    <img src="./img/good3.jpg">
+                                </div>
+                                <div class="price">
+                                    <span>￥9.9</span>
+                                </div>
+                                <div class="save">
+                                    <span>省￥9.9</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <split></split>
+
+                <div class="hot">
+                    <div class="hot-title">
+                        <img src="./img/hot.jpg">
+                    </div>
+
+                    <div class="img-box">
+                        <div class="left">
+                            <img src="./img/left.png">
+                        </div>
+                        <div class="right">
+                            <div class="top"><img src="./img/right1.jpg"></div>
+                            <div class="bottom"><img src="./img/right2.jpg"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <split></split>
+
+                <div class="experience">
+                    <div class="title">
+                        <img src="./img/exp-title.png">
+                    </div>
+
+                    <div class="more">
+                        <a href="javascript:;">
+                            <img src="./img/more2.png">
                         </a>
-                    </li>
-                </ul>
+                    </div>
+                </div>
+
+                <div class="exp-swipe">
+                    <mt-swipe :auto="4000">
+                        <mt-swipe-item>
+                            <img src="./img/exp1.jpg">
+                        </mt-swipe-item>
+                        <mt-swipe-item>
+                            <img src="./img/exp2.jpg">
+                        </mt-swipe-item>
+                        <mt-swipe-item>
+                            <img src="./img/exp3.jpg">
+                        </mt-swipe-item>
+                        <mt-swipe-item>
+                            <img src="./img/exp4.jpg">
+                        </mt-swipe-item>
+                    </mt-swipe>
+                </div>
+
+                <div class="special">
+                    <div class="brand">
+                        <img src="./img/special.png">
+                    </div>
+                </div>
+
+                <div class="brand-show">
+                    <div class="text">
+                        <span class="big">丝倍亮3免一</span>
+                        &nbsp; &nbsp;
+                        <span class="small">丝倍亮3免一</span>
+                    </div>
+
+                    <div class="brand-img">
+                        <a href="">
+                            <img src="./img/brand1.jpg">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="brand-show">
+                    <div class="text">
+                        <span class="big">安娜马特</span>
+                        <span class="small">无谷低敏</span>
+                    </div>
+
+                    <div class="brand-img">
+                        <a href="">
+                            <img src="./img/brand2.jpg">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="brand-show">
+                    <div class="text">
+                        <span class="big">品牌特卖-澳路雪&amp;圣路薇</span>
+                        <span class="small">口碑联合，清凉一“夏”</span>
+                    </div>
+
+                    <div class="brand-img">
+                        <a href="">
+                            <img src="./img/brand3.jpg">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="brand-show">
+                    <div class="text">
+                        <span class="big">>品牌特卖-PerfectCoat香波</span>
+                        <span class="small">口碑联合，清凉一“夏”</span>
+                    </div>
+
+                    <div class="brand-img">
+                        <a href="">
+                            <img src="./img/brand4.jpg">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="brand-show">
+                    <div class="text">
+                        <span class="big">我的日期不完美</span>
+                        <span class="small">大牌临期1折起</span>
+                    </div>
+
+                    <div class="brand-img">
+                        <a href="">
+                            <img src="./img/brand5.jpg">
+                        </a>
+                    </div>
+                </div>
+
+                <split></split>
+
+                <div class="evaluate">
+                    <div class="title">
+                        <img src="./img/evaluate.png">
+                        <div class="rating">
+                            <a href="javascript:;">好评率99.64%</a>
+                        </div>
+                    </div>
+
+                    <div class="praise">
+                        <ul class="lists clearfix">
+                            <li class="list">
+                                <a href="javascript:;">
+                                    <div class="comment-box">
+                                        <div class="comment-pic">
+                                            <img src="./img/comment1.jpg">
+                                            <div class="join_time">加入E宠2年0月</div>
+                                        </div>
+                                        <div class="user-info">
+                                            <span class="nickname">红*****ω</span>
+                                            <span class="pet-name">中华田园猫</span>
+                                        </div>
+                                        <div class="comment-info">
+                                            包装完美，没有破漏的情况存在，虽说是跨境运输，但是物流的速度还是比想象中快，最主要的还是正品保证，买得放心吃的安心
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="list">
+                                <a href="javascript:;">
+                                    <div class="comment-box">
+                                        <div class="comment-pic">
+                                            <img src="./img/comment2.jpg">
+                                            <div class="join_time">加入E宠2年0月</div>
+                                        </div>
+                                        <div class="user-info">
+                                            <span class="nickname">红*****ω</span>
+                                            <span class="pet-name">中华田园猫</span>
+                                        </div>
+                                        <div class="comment-info">
+                                            包装完美，没有破漏的情况存在，虽说是跨境运输，但是物流的速度还是比想象中快，最主要的还是正品保证，买得放心吃的安心
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="list">
+                                <a href="javascript:;">
+                                    <div class="comment-box">
+                                        <div class="comment-pic">
+                                            <img src="./img/comment3.jpg">
+                                            <div class="join_time">加入E宠2年0月</div>
+                                        </div>
+                                        <div class="user-info">
+                                            <span class="nickname">红*****ω</span>
+                                            <span class="pet-name">中华田园猫</span>
+                                        </div>
+                                        <div class="comment-info">
+                                            包装完美，没有破漏的情况存在，虽说是跨境运输，但是物流的速度还是比想象中快，最主要的还是正品保证，买得放心吃的安心
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="list">
+                                <a href="javascript:;">
+                                    <div class="comment-box">
+                                        <div class="comment-pic">
+                                            <img src="./img/comment4.jpg">
+                                            <div class="join_time">加入E宠2年0月</div>
+                                        </div>
+                                        <div class="user-info">
+                                            <span class="nickname">红*****ω</span>
+                                            <span class="pet-name">中华田园猫</span>
+                                        </div>
+                                        <div class="comment-info">
+                                            包装完美，没有破漏的情况存在，虽说是跨境运输，但是物流的速度还是比想象中快，最主要的还是正品保证，买得放心吃的安心
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <split></split>
+
+
+
             </div>
         </div>
 
-        <split></split>
 
-
-
+        <pet-foot></pet-foot>
     </div>
 
 
@@ -365,12 +375,39 @@
 
 <script>
 
+    import header from '../header/header.vue'
+    import footer from '../footer/footer.vue'
+
     import split from '../split/split.vue'
+    import BScroll from 'better-scroll'
 
     export default {
 
         components: {
-            split
+            split,
+            'pet-head': header,
+            'pet-foot': footer
+        },
+
+        created(){
+            this.$nextTick(() => {
+                this._initScroll()
+            })
+        },
+
+        methods: {
+            _initScroll(){
+                new BScroll(this.$refs.new, {
+                    startX: 0,
+                    startY: 0,
+                    scrollX: true
+                })
+                new BScroll(this.$refs.buy, {
+                    startX: 0,
+                    startY: 0,
+                    scrollX: true
+                })
+            }
         }
 
     }
@@ -393,7 +430,11 @@
         height auto
         font-size 0
         .new
+          a
+            display block
+            width 101%
           img
+            display inline-block
             width 100%
         .sell
           width 100%
@@ -439,13 +480,15 @@
           font-size 0
           background-color lightgray
           width 100%
-          overflow auto
+          overflow hidden
           &:before
             content ''
             display table
             clear both
           .goods
             white-space nowrap
+            width 150%
+            display inline-block
             .good
               background-color #fff
               display inline-block

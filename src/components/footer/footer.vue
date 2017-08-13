@@ -11,7 +11,7 @@
                 <a href="javascript:;"></a>
             </li>
             <li class="list">
-                <a href="javascript:;"></a>
+                <router-link to="/login"></router-link>
             </li>
         </ul>
     </div>
@@ -49,6 +49,7 @@
         a
           display block
           height 100%
+
 
 
 

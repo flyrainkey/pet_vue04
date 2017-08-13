@@ -147,6 +147,7 @@ config/index.js/assetsPublicPath: './',
     ` <a href="#index" class="back"> `
     
 10. git 代码提交的时候可以插入表情了-GitHub表情的使用 
+
    `git commit –m 'commit some changes :blush:'`
 
 

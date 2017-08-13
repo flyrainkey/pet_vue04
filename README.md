@@ -148,7 +148,11 @@ config/index.js/assetsPublicPath: './',
     
 10. git 代码提交的时候可以插入表情了-GitHub表情的使用 
 
-   `git commit –m 'commit some changes :blush:'`
+ *   `git commit –m 'commit some changes :blush:'`
+   
+ *  官方地址 http://www.cnblogs.com/Wayou/p/use_emoji_in_github.html
+ 
+ 
 
 
 

@@ -145,6 +145,9 @@ config/index.js/assetsPublicPath: './',
 
     * 从一个路由组件跳转到另外一个组件 可以直接用 `a` 标签的 `href` 属性  
     ` <a href="#index" class="back"> `
+    
+10. git 代码提交的时候可以插入表情了-GitHub表情的使用 
+   `git commit –m 'commit some changes :blush:'`
 
 
 

@@ -158,8 +158,11 @@ config/index.js/assetsPublicPath: './',
 #### 2. 温景业 访问: http://192.168.21.40:8080/#/shouye
 1. a 标签使用伪类修改样式
 2. 轮播图引入插件和使用问题
+3. 子路由里面 a 标签 href属性的占位符值 不能写 ###   必须要用 `javascript:;` 
 
-#### 3. 赵越  访问: http://192.168.21.62:8080/#/shouye
+
+
+#### 3. 赵越  访问: http://192.168.21.47:8080
 
 1. 图片要保存到静态资源 static文件里
 
@@ -167,7 +170,11 @@ config/index.js/assetsPublicPath: './',
 
 1. 轮播图插件的选取 
 2. 脚手架下载和结构搭建
-3. .清楚所有默认样式的css文件（reset） 
+3. 清楚所有默认样式的css文件（reset） 
+4. vue-antd不稳定，官方文档不推荐使用，npm下载下来不能使用
+5. click绑定多个事件：@click="xxx();xxx()"才能生效
+6. 设置子路由的时候：缩进、标点问题
+7. header footer抽取出来 
 
 #### 5.陈奎宁 访问 http://192.168.21.54:8080/#/shouye
 
@@ -182,6 +189,17 @@ config/index.js/assetsPublicPath: './',
      white-space: nowrap;
      overflow: hidden;
  ```
+5. 事件委派 给父元素绑定事件 当子元素内部还有子元素 
+    通过event.target得不到父元素下的第一代子元素 得到的是子元素内部的子元素 
+    
+6. 原生DOM操作为标签绑定class属性报错问题
+
+   ```
+   Uncaught TypeError: Cannot set property 'className' of null
+        at VueComponent
+   ```
+   
+   
  
 
 

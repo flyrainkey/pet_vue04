@@ -3,6 +3,7 @@
 #### 项目测试访问地址
 
 [项目测试地址](http://192.168.21.54:8080/#/shouye "内部测试地址")
+[线上测试地址](http://miracle-001-site1.site4future.com "内部测试地址")
 
 #### 1.1 项目描述
 
@@ -89,7 +90,7 @@ config/index.js/assetsPublicPath: './',
 ### 项目组成
 * 组长: 杨勇海
 * 成员: 温景业 陈奎宁 施碧辉 赵越
-* 项目开始: 2017年8月7日11:04:19
+
 
 <div  align="center">    
 <img src="http://i.imgur.com/ktlz6mY.jpg" width = "300" height = "200" alt="haha" align=center />
@@ -156,21 +157,21 @@ config/index.js/assetsPublicPath: './',
 
 
 
-#### 1. 高成平
+#### 1. 
 1. 样式引入 `href= './' ` 不知道绝对路径和相对路径
 2. a 标签去除默认样式 `text-decoration: none`
 3. 默认浏览器为360， 设置为Chrome
 4. Chrome插件安装 infinity 
 5. position 定位 
 
-#### 2. 温景业 访问: http://192.168.21.40:8080/#/shouye
+#### 2.  
 1. a 标签使用伪类修改样式
 2. 轮播图引入插件和使用问题
 3. 子路由里面 a 标签 href属性的占位符值 不能写 ###   必须要用 `javascript:;` 
 
 
 
-#### 3. 赵越  访问: http://192.168.21.47:8080
+#### 3. 
 
 1. 图片要保存到静态资源 static文件里
 2. 问题：git 环境变量的配置 
@@ -181,7 +182,7 @@ config/index.js/assetsPublicPath: './',
 ```
 
 
-#### 4. 施碧辉 访问: http://192.168.21.35:8080/#/homepage
+#### 4. 
 
 1. 轮播图插件的选取 
 2. 脚手架下载和结构搭建
@@ -191,7 +192,7 @@ config/index.js/assetsPublicPath: './',
 6. 设置子路由的时候：缩进、标点问题
 7. header footer抽取出来 
 
-#### 5.陈奎宁 访问 http://192.168.21.54:8080/#/shouye
+#### 5.
 
 
 
